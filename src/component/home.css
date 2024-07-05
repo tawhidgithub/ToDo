@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+.body {
+  align-items: 0;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: center;
+  width: 500px;
+  height: 100vh;
+  background-color: rgb(53, 53, 48);
+}
+.main {
+  margin: 50px 0;
+}
+input {
+  height: 50px;
+  width: 70vh;
+  margin-bottom: 10px;
+  font-size: 21px;
+  border-radius: 8px;
+  padding-left: 10px;
+  border: none;
+}
+button {
+  background-color: orange;
+  height: 50px;
+  width: 65vh;
+  margin-bottom: 5px;
+  font-size: 21px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  margin-bottom: 15px;
+}
+.underline {
+  width: 70vh;
+  display: flex;
+  margin: 0 auto;
+  height: 1px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.todos {
+  background-color: wheat;
+  margin: 5px;
+  text-align: left;
+  padding: 0 5px;
+  border-radius: 5px;
+  height: 15vh;
+}
+.dis {
+  margin-top: 5px;
+}
+.todoDiv {
+  position: relative;
+}
+.delete {
+  position: absolute;
+  right: 10px;
+  top: 30%;
+  transform: translateY(-30%);
+}
+.Icon {
+  height: 30vh;
+  width: 50px;
+  color: red;
+}
